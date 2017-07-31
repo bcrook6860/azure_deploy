@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westus"
+        },
+        "virtualMachineName": {
+            "value": "projectoravm"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "adminUsername": {
+            "value": "sbuxproject"
+        },
+        "virtualNetworkName": {
+            "value": "projectorarg-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "projectoravm439"
+        },
+        "networkSecurityGroupName": {
+            "value": "projectoravm-nsg"
+        },
+        "adminPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA0fjnJAXswK5Cneg+Wc3IsGGO+jEYG5T9IhjGJ133Vzj/T2TCm7Net8VFlQ2FcOSH7Y623Rah++Qz86xEpJbWgEIAp/tJDTUzTeMycabzR/lnt//oetlAut0iC+UV4zuq5Upjmn5PHQUgsXGgMTzwmQlsmQhCbn5DogxRAKdnOOFpnh1Je6C17owSHdszwTtQ9Ea1ANfTajjMXl86Em8RSg0FzF/ET2cM7VM7pY47ErT6bDYg4VdL0qEU+9lAjjpsv3Dvr25PH57IptjqVAu6cYnkToHql5jzQV7thvWk2PktPZ7n9rrEJQVgwH26v/3b6xme/3ikpZyyFM9Vijt67w=="
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "projectorargdiag296"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/projectorargdiag296"
+        },
+        "addressPrefix": {
+            "value": "10.0.1.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.1.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "projectoravm-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
