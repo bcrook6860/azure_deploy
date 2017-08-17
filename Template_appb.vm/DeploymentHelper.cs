@@ -1,4 +1,4 @@
-// Requires the following Azure NuGet packages and related dependencie:
+// Requires the following Azure NuGet packages and related dependencies:
 // package id="Microsoft.Azure.Management.Authorization" version="2.0.0"
 // package id="Microsoft.Azure.Management.ResourceManager" version="1.4.0-preview"
 // package id="Microsoft.Rest.ClientRuntime.Azure.Authentication" version="2.2.8-preview"
